@@ -41,7 +41,7 @@ public class Village {
 			for (int i = 0; i < nbVillageois; i++) {
 				Gaulois habitant = villageois[i];
 				if (habitant.getNom().equals(nomGaulois)) {
-					gaulois = habitant;
+					return habitant; 
 				}
 			}
 		}
